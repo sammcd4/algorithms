@@ -1,5 +1,6 @@
 # First non-repeating character
 
+
 def first_nonrepeating_character(a_str):
     char_map = {}
     for c in a_str:
@@ -11,6 +12,7 @@ def first_nonrepeating_character(a_str):
     for c in a_str:
         if char_map[c] == 1:
             return c
+
 
 # Run my algorithm
 my_string = 'somethingthatiswrittenorsaid'
